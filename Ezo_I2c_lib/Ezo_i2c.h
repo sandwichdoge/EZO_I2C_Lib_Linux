@@ -10,9 +10,7 @@ class Ezo_board{
 	
 	//constructors
 	Ezo_board(const char* dev, uint8_t address);	 //Takes I2C address of the device
-	Ezo_board(uint8_t address, const char* name); //Takes I2C address of the device
-												//as well a name of your choice
-	
+
 	virtual ~Ezo_board();
 
 	void send_cmd(const char* command);	
