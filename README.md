@@ -2,7 +2,7 @@
 API to interface with Atlas Scientific EZO devices on Linux. So we can use them with boards that run Linux.
 
 ### Why?
-Because Atlas Scientific only provides libraries for Arduino.
+Because Atlas Scientific only provides libraries for Arduino (https://github.com/Atlas-Scientific/Ezo_I2c_lib).
 
 ### Prerequisites
 Linux image with working /dev/i2c drivers.
